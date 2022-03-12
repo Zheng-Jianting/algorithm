@@ -1,6 +1,6 @@
 public class DFS {
-    public static int[] nums;
-    public static int[] dp;
+    private int[] nums;
+    private int[] dp;
 
     public boolean canJump(int[] nums) {
         this.nums = nums;
@@ -8,7 +8,7 @@ public class DFS {
         return dfs(nums, 0);
     }
 
-    public static boolean dfs(int[] nums, int i) {
+    public boolean dfs(int[] nums, int i) {
         if (dp[i] != 0) {
             return dp[i] == 1;
         }
