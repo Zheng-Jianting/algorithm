@@ -23,3 +23,8 @@
 hs_err_pid*
 
 contest/**
+code top/**
+daily/**
+hot 100/**
+
+.gitignore
